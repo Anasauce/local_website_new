@@ -1,0 +1,58 @@
+body, html {
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+header.fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav.overlay {
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+nav .logo {
+  width: 75px;
+  height: 75px;
+  background-image: url("../images/VFix_logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  flex-direction: row;
+  padding-left: 25px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+nav.overlay li a {
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  color: red;
+}
