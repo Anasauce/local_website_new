@@ -1,0 +1,14 @@
+nav {
+  background-color: blue;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline;
+    font-size: 1.5em;
+}
+
+
