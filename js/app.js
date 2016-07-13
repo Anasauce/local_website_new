@@ -6,4 +6,6 @@ window.addEventListener( 'scroll', function( event ) {
   } else {
     navBar.classList.remove( 'overlay' );
   }
+
+  console.log(window.pageYOffset);
 });
